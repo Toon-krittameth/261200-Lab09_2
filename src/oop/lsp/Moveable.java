@@ -1,4 +1,5 @@
 package oop.lsp;
 
-public class Moveable {
+public interface Moveable {
+    void move();
 }

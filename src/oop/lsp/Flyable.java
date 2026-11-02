@@ -1,4 +1,5 @@
 package oop.lsp;
 
-public class Flyable {
+public interface Flyable extends Moveable {
+    void fly();
 }
