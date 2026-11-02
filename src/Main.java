@@ -1,7 +1,6 @@
 import oop.lsp.*;
 
-public class Lab09_2 {
-    public static void main(String[] args) {
+void main() {
         System.out.println("=== All Birds Moving ===");
         new Sparrow().move();
         new Eagle().move();
@@ -11,5 +10,4 @@ public class Lab09_2 {
         System.out.println("\n=== Flying Birds ===");
         new Sparrow().fly();
         new Eagle().fly();
-    }
 }
